@@ -39,7 +39,7 @@ class DocumentCaptureScreens extends HTMLElement {
       ${this.title} ${this.showNavigation} ${this.hideInstructions ? '' : 'hidden'} 
       ${this.documentCaptureModes} ${this.documentType} theme-color='${this.themeColor}'
       ></document-capture>
-      <document-capture-instructions id='document-capture-instructions-back' side-of-id='Back' title='Submit Back of ID'
+      <document-capture-instructions id='document-capture-instructions-back' side-of-id='Back' title='Verso do Documento'
        ${this.documentCaptureModes} ${this.showNavigation} theme-color='${this.themeColor}' hidden
        ></document-capture-instructions>
       <document-capture id='document-capture-back' side-of-id='Back' ${this.title} ${this.showNavigation}
@@ -295,7 +295,7 @@ class DocumentCaptureScreens extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#001096';
+    return this.getAttribute('theme-color') || '#72B84A';
   }
 
   handleBackEvents() {

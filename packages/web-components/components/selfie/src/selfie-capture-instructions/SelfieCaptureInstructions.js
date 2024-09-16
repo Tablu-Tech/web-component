@@ -10,8 +10,8 @@ function templateString() {
     />
     <style>
     :host {
-        --theme-color: ${this.themeColor || '#001096'}
-        --color-active: #001096;
+        --theme-color: ${this.themeColor || '#72B84A'}
+        --color-active: #72B84A;
         --color-default: #2d2b2a;
         --color-disabled: #848282;
       }
@@ -74,15 +74,15 @@ function templateString() {
       }
 
       .color-richblue-shade {
-        color: #0e1b42;
+        color: #72B84A;
       }
 
       .color-digital-blue {
-        color: #001096 !important;
+        color: #72B84A !important;
       }
 
       .color-deep-blue {
-        color: #001096;
+        color: #72B84A;
       }
 
       .center {
@@ -187,7 +187,7 @@ function templateString() {
       .back-button-text {
         font-size: 11px;
         line-height: 11px;
-        color: rgb(21, 31, 114);
+        color: #72B84A;
       }
       .section {
         border: 1px solid #f4f4f4;
@@ -242,13 +242,13 @@ function templateString() {
       }
 
       .powered-by .company {
-        color: #18406d;
+        color: #72B84A;
         font-weight: 700;
         letter-spacing: 0.15rem;
       }
 
       .logo-mark {
-        background-color: #004071;
+        background-color: #72B84A;
         display: inline-block;
         padding: 0.25em 0.5em;
       }
@@ -331,7 +331,7 @@ function templateString() {
         </clipPath>
       </defs>
     </svg>
-      <h1 class='text-2xl title-color font-bold'>Next, we'll take a quick selfie</h1>
+      <h1 class='text-2xl title-color font-bold'>A seguir, tiraremos uma selfie rápida</h1>
     </header>
     <div class="flow instructions-wrapper">
       <div class="instructions">
@@ -410,10 +410,10 @@ function templateString() {
           </defs>
         </svg>
         <div class="instruction">
-          <p class="text-base title-color font-bold tip-header">Good Light</p>
+          <p class="text-base title-color font-bold tip-header">Boa luz</p>
           <p class="tip-body">
-            Make sure you are in a well-lit environment where your face is
-            clear and visible
+           Certifique-se de que está num ambiente bem iluminado onde o seu rosto esteja
+ claro e visível
           </p>
         </div>
       </div>
@@ -499,10 +499,10 @@ function templateString() {
           </defs>
         </svg>
         <div class="instruction">
-          <p class="text-base title-color font-bold tip-header">Clear Image</p>
+          <p class="text-base title-color font-bold tip-header">Limpar imagem</p>
           <p>
-            Hold your phone steady so the selfie is clear and sharp. Don't
-            take blurry images.
+           Segure o telemóvel com firmeza para que a selfie seja clara e nítida. Não
+ tirar imagens desfocadas.
           </p>
         </div>
       </div>
@@ -532,19 +532,19 @@ function templateString() {
           />
         </svg>
         <div class="instruction">
-          <p class="text-base title-color font-bold tip-header">Remove Obstructions</p>
+          <p class="text-base title-color font-bold tip-header">Remover obstruções</p>
           <p>
-            Remove anything that covers your face, such glasses, masks, hats
-            and scarves
+           Remova tudo o que cubra o seu rosto, como óculos, máscaras, chapéus
+ e lenços
           </p>
         </div>
       </div>
       <section class='flow' style='--flow-space: 2.5rem'>
         <button id='allow' data-variant='solid full-width' class='button theme-background'>
-            Allow
+            Continuar
         </button>
         <button id='cancel' data-variant='outline full-width' class="button" style='--flow-space: 1.5rem'>
-            Cancel
+            Cancelar
         </button>
        </section>
     </div>
@@ -609,7 +609,7 @@ class SelfieCaptureInstructions extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#001096';
+    return this.getAttribute('theme-color') || '#72B84A';
   }
 
   get hideAttribution() {

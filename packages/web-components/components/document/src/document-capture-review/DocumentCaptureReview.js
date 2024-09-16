@@ -191,7 +191,7 @@ function templateString() {
     }
 
     h1 {
-      color: var(--web-digital-blue, #001096);
+      color: var(--web-digital-blue, #72B84A);
       text-align: center;
 
       /* h1 */
@@ -209,7 +209,7 @@ function templateString() {
     }
 
     .instruction-header {
-      color: var(--web-digital-blue, #001096);
+      color: var(--web-digital-blue, #72B84A);
     }
 
     .h2 {
@@ -223,7 +223,7 @@ function templateString() {
   <div id='document-capture-review-screen' class='flow center'>
   <smileid-navigation ${this.showNavigation ? 'show-navigation' : ''} hide-back></smileid-navigation>
     <h1 class="header-title title-color">
-      Is the document clear and readable?
+      O documento é claro e legível?
     </h1>
     <p class="description">Make sure all corners of the document 
     are visible and there is no glare</p>
@@ -285,7 +285,7 @@ class IdReview extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#001096';
+    return this.getAttribute('theme-color') || '#72B84A';
   }
 
   get hideAttribution() {
@@ -297,7 +297,7 @@ class IdReview extends HTMLElement {
   }
 
   get title() {
-    return this.getAttribute('title') || 'Submit Front of ID';
+    return this.getAttribute('title') || 'Parte frontal do documento';
   }
 
   handleBackEvents() {

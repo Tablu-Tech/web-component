@@ -42,7 +42,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
   });
 
   it('should have a 8000ms timer', () => {
@@ -66,7 +66,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture')
@@ -110,7 +110,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture')
@@ -153,7 +153,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture')
@@ -199,7 +199,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture')
@@ -261,7 +261,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture')

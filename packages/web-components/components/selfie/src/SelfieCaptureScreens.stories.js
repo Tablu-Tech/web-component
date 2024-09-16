@@ -11,7 +11,7 @@ export default meta;
 
 export const SelfieCaptureFlow = {
   args: {
-    'theme-color': '#001096',
+    'theme-color': '#72B84A',
   },
   render: (args) => `
         <selfie-capture-screens theme-color='${args['theme-color']}'>
@@ -21,7 +21,7 @@ export const SelfieCaptureFlow = {
 
 export const SelfieCaptureFlowHiddenInstructions = {
   args: {
-    'theme-color': '#001096',
+    'theme-color': '#72B84A',
   },
   render: (args) => `
         <selfie-capture-screens hide-instructions theme-color='${args['theme-color']}'>

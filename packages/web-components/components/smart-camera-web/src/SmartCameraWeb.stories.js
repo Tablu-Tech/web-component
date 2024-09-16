@@ -2,7 +2,7 @@ import './SmartCameraWeb';
 
 const meta = {
   args: {
-    'theme-color': '#001096',
+    'theme-color': '#72B84A',
   },
   argTypes: {
     'theme-color': { control: 'color' },

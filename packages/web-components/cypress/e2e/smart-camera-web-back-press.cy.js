@@ -19,7 +19,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture-instructions')
       .shadow()
-      .should('contain.text', "Next, we'll take a quick selfie");
+      .should('contain.text', "A seguir, tiraremos uma selfie rápida");
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture-instructions')
@@ -39,7 +39,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture-instructions')
       .shadow()
-      .should('contain.text', "Next, we'll take a quick selfie");
+      .should('contain.text', "A seguir, tiraremos uma selfie rápida");
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture-instructions')
@@ -73,7 +73,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
 
     cy.get('smart-camera-web')
       .shadow()
@@ -263,7 +263,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
     cy.get('smart-camera-web')
       .shadow()
       .find('selfie-capture')

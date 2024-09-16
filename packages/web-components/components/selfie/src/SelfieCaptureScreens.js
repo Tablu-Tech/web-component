@@ -200,7 +200,7 @@ class SelfieCaptureScreens extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#001096';
+    return this.getAttribute('theme-color') || '#72B84A';
   }
 
   setActiveScreen(screen) {

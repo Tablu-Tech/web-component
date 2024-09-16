@@ -66,8 +66,8 @@ function templateString() {
     ${styles(this.themeColor)}
   <style>
   :host {
-    --theme-color: ${this.themeColor || '#001096'};
-    --color-active: #001096;
+    --theme-color: ${this.themeColor || '#72B84A'};
+    --color-active: #72B84A;
     --color-default: #2D2B2A;
     --color-disabled: #848282;
   }
@@ -134,11 +134,11 @@ function templateString() {
   }
 
   .color-digital-blue {
-    color: #001096 !important;
+    color: #72B84A !important;
   }
 
   .color-deep-blue {
-    color: #001096;
+    color: #72B84A;
   }
 
   .title-color {
@@ -512,7 +512,7 @@ function templateString() {
   </style>
   <div id='selfie-capture-screen' class='flow center'>
     <smileid-navigation theme-color='${this.themeColor}' ${this.showNavigation ? 'show-navigation' : ''} ${this.hideBack ? 'hide-back' : ''}></smileid-navigation>
-    <h1 class='text-2xl title-color font-bold'>Take a Selfie</h1>
+    <h1 class='text-2xl title-color font-bold'>Tire uma selfie</h1>
 
     <div class='section | flow'>
       <div class='video-container'>
@@ -529,7 +529,7 @@ function templateString() {
           <path fill="#F8F8FA" fill-rule="evenodd" d="M17.44 0h4.2c4.92 0 7.56.68 9.95 1.96a13.32 13.32 0 015.54 5.54c1.27 2.39 1.95 5.02 1.95 9.94v4.2c0 4.92-.68 7.56-1.95 9.95a13.32 13.32 0 01-5.54 5.54c-2.4 1.27-5.03 1.95-9.95 1.95h-4.2c-4.92 0-7.55-.68-9.94-1.95a13.32 13.32 0 01-5.54-5.54C.68 29.19 0 26.56 0 21.64v-4.2C0 12.52.68 9.9 1.96 7.5A13.32 13.32 0 017.5 1.96C9.89.68 12.52 0 17.44 0z" clip-rule="evenodd"/>
           <path fill="#AEB6CB" d="M19.95 10.58a.71.71 0 000 1.43.71.71 0 000-1.43zm-5.54 2.3a.71.71 0 000 1.43.71.71 0 000-1.43zm11.08 0a.71.71 0 000 1.43.71.71 0 000-1.43zm-5.63 1.27a4.98 4.98 0 00-2.05 9.48v1.2a2.14 2.14 0 004.28 0v-1.2a4.99 4.99 0 00-2.23-9.48zm-7.75 4.27a.71.71 0 000 1.43.71.71 0 000-1.43zm15.68 0a.71.71 0 000 1.43.71.71 0 000-1.43z"/>
         </svg>
-        <span>Tips: Put your face inside the oval frame and click to "take selfie"</span> </small>
+        <span>Dicas: Coloque o rosto dentro da moldura oval e clique para “tirar selfie”</span> </small>
 
       ${this.allowAgentMode ? `<button data-variant='outline small' id='switch-camera' class='button | center' type='button'>${this.inAgentMode ? 'Agent Mode On' : 'Agent Mode Off'}</button>` : ''}
 
@@ -851,7 +851,7 @@ class SelfieCaptureScreen extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#001096';
+    return this.getAttribute('theme-color') || '#72B84A';
   }
 
   get hideAttribution() {
@@ -882,7 +882,7 @@ class SelfieCaptureScreen extends HTMLElement {
   }
 
   get title() {
-    return this.getAttribute('title') || 'Submit Front of ID';
+    return this.getAttribute('title') || 'Parte frontal do documento';
   }
 
   get hidden() {

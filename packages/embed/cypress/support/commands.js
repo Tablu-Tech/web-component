@@ -289,7 +289,7 @@ Cypress.Commands.add('navigateThroughNewCameraScreens', () => {
     .shadow()
     .find('selfie-capture')
     .shadow()
-    .should('contain.text', 'Take a Selfie');
+    .should('contain.text', 'Tire uma selfie');
 
   cy.getIFrameBody()
     .find('smart-camera-web')

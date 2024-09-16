@@ -11,7 +11,7 @@ export default meta;
 
 export const DocumentInstruction = {
   args: {
-    'theme-color': '#001096',
+    'theme-color': '#72B84A',
   },
   render: (args) => `
         <document-capture-instructions

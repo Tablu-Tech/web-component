@@ -270,7 +270,7 @@ class SmartCameraWeb extends HTMLElement {
   }
 
   get themeColor() {
-    return this.hasThemeColor ? this.getAttribute('theme-color') : '#001096';
+    return this.hasThemeColor ? this.getAttribute('theme-color') : '#72B84A';
   }
 
   get applyComponentThemeColor() {

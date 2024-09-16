@@ -179,7 +179,7 @@ function templateString() {
         font-size: 0.75rem;
       }
       h1 {
-        color: var(--web-digital-blue, #001096);
+        color: var(--web-digital-blue, #72B84A);
         text-align: center;
         /* h1 */
         font-size: 1.5rem;
@@ -194,7 +194,7 @@ function templateString() {
         line-height: 1rem;
       }
       .instruction-header {
-        color: var(--web-digital-blue, #001096);
+        color: var(--web-digital-blue, #72B84A);
       }
       .h2 {
         font-size: 1rem;
@@ -272,7 +272,7 @@ class SelfieCaptureReview extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#001096';
+    return this.getAttribute('theme-color') || '#72B84A';
   }
 
   get hideAttribution() {
@@ -284,7 +284,7 @@ class SelfieCaptureReview extends HTMLElement {
   }
 
   get title() {
-    return this.getAttribute('title') || 'Submit Front of ID';
+    return this.getAttribute('title') || 'Parte frontal do documento';
   }
 
   handleBackEvents() {

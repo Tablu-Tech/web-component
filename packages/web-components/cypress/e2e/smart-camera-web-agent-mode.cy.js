@@ -65,7 +65,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
 
     cy.get('smart-camera-web')
       .shadow()
@@ -119,7 +119,7 @@ context('SmartCameraWeb', () => {
       .shadow()
       .find('selfie-capture')
       .shadow()
-      .should('contain.text', 'Take a Selfie');
+      .should('contain.text', 'Tire uma selfie');
 
     cy.get('smart-camera-web')
       .shadow()
