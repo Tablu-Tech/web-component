@@ -510,7 +510,7 @@ function scwTemplateString() {
                   <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
                 </svg>
               </button>
-              <div class="back-button-text">Back</div>
+              <div class="back-button-text">Voltar</div>
             </div>
           `
           }
@@ -584,7 +584,7 @@ function scwTemplateString() {
           <svg id="image-outline" width="215" height="245" viewBox="0 0 215 245" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M210.981 122.838C210.981 188.699 164.248 241.268 107.55 241.268C50.853 241.268 4.12018 188.699 4.12018 122.838C4.12018 56.9763 50.853 4.40771 107.55 4.40771C164.248 4.40771 210.981 56.9763 210.981 122.838Z" stroke="var(--color-active)" stroke-width="7.13965"/>
           </svg>
-          <p id='smile-cta' class='color-gray'>SMILE</p>
+          <p id='smile-cta' class='color-gray'>Atencao</p>
         </div>
   
         <small class='tips'>
@@ -592,10 +592,10 @@ function scwTemplateString() {
             <path fill="#F8F8FA" fill-rule="evenodd" d="M17.44 0h4.2c4.92 0 7.56.68 9.95 1.96a13.32 13.32 0 015.54 5.54c1.27 2.39 1.95 5.02 1.95 9.94v4.2c0 4.92-.68 7.56-1.95 9.95a13.32 13.32 0 01-5.54 5.54c-2.4 1.27-5.03 1.95-9.95 1.95h-4.2c-4.92 0-7.55-.68-9.94-1.95a13.32 13.32 0 01-5.54-5.54C.68 29.19 0 26.56 0 21.64v-4.2C0 12.52.68 9.9 1.96 7.5A13.32 13.32 0 017.5 1.96C9.89.68 12.52 0 17.44 0z" clip-rule="evenodd"/>
             <path fill="#AEB6CB" d="M19.95 10.58a.71.71 0 000 1.43.71.71 0 000-1.43zm-5.54 2.3a.71.71 0 000 1.43.71.71 0 000-1.43zm11.08 0a.71.71 0 000 1.43.71.71 0 000-1.43zm-5.63 1.27a4.98 4.98 0 00-2.05 9.48v1.2a2.14 2.14 0 004.28 0v-1.2a4.99 4.99 0 00-2.23-9.48zm-7.75 4.27a.71.71 0 000 1.43.71.71 0 000-1.43zm15.68 0a.71.71 0 000 1.43.71.71 0 000-1.43z"/>
           </svg>
-          <span>Tips: Put your face inside the oval frame and click to "take selfie"</span> </small>
+          <span>Dicas: Coloque o rosto dentro da moldura oval e clique para “tirar selfie”</span> </small>
   
         <button data-variant='solid' id='start-image-capture' class='button | center' type='button'>
-          Take Selfie
+         Tire uma selfie
         </button>
   
         ${

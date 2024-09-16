@@ -20,8 +20,10 @@ document.querySelector('#app').innerHTML = `
 <!--        Verify with Smile Identity-->
 <!--      </button>-->
 <!--    </form>-->
-<smart-camera-web capture-id></smart-camera-web>
+<smart-camera-web capture-id document-capture-modes="camera,upload"></smart-camera-web>
   </div>
 `;
 
 setupForm();
+
+
