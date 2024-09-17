@@ -81,7 +81,7 @@ class SignaturePad extends HTMLElement {
   max-inline-size: 100%;
   position: relative;
   --color-active: #2D2B2A;
-  --color-default: #72B84A;
+  --color-default: #02aaad;
   --color-disabled: #848282;
 }
 
@@ -470,7 +470,7 @@ button:disabled {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#72B84A';
+    return this.getAttribute('theme-color') || '#02aaad';
   }
 }
 

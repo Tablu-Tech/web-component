@@ -11,11 +11,11 @@ const styles = (
 <style>
 ${typography}
 :host {
-    --theme-color: ${themeColor || '#72B84A'};
-    --color-active: #72B84A;
+    --theme-color: ${themeColor || '#02aaad'};
+    --color-active: #02aaad;
     --color-default: #2d2b2a;
     --color-disabled: #848282;
-    --web-digital-blue: #72B84A;
+    --web-digital-blue: #02aaad;
   }
 
   * {
@@ -83,15 +83,15 @@ ${typography}
   }
 
   .color-deep-blue {
-    color: #72B84A;
+    color: #02aaad;
   }
 
   .title-color {
-    color: ${themeColor || '#72B84A'};
+    color: ${themeColor || '#02aaad'};
   }
   
   .theme-color {
-    color: ${themeColor || '#72B84A'};
+    color: ${themeColor || '#02aaad'};
   }
 
   .center {

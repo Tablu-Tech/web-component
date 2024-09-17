@@ -12,7 +12,7 @@ export default meta;
 
 export const SelfieCapture = {
   args: {
-    'theme-color': '#72B84A',
+    'theme-color': '#02aaad',
   },
   loaders: [
     async () => ({

@@ -153,7 +153,7 @@ button[data-type="icon"] {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#72B84A';
+    return this.getAttribute('theme-color') || '#02aaad';
   }
 
   get hasThemeColor() {

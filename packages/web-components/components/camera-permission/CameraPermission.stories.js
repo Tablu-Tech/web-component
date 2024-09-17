@@ -2,7 +2,7 @@ import './CameraPermission';
 
 const meta = {
   args: {
-    'theme-color': '#72B84A',
+    'theme-color': '#02aaad',
   },
   argTypes: {
     'theme-color': { control: 'color' },

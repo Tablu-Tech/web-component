@@ -12,7 +12,7 @@ function scwTemplateString() {
   
     <style>
       :host {
-        --color-active: #72B84A;
+        --color-active: #02aaad;
         --color-default: #2D2B2A;
         --color-disabled: #848282;
       }
@@ -79,11 +79,11 @@ function scwTemplateString() {
       }
   
       .color-digital-blue {
-        color: #72B84A !important;
+        color: #02aaad !important;
       }
   
       .color-deep-blue {
-        color: #72B84A;
+        color: #02aaad;
       }
   
       .center {
@@ -507,7 +507,7 @@ function scwTemplateString() {
               <button type='button' data-type='icon' id="back-button-exit" class="back-button back-button-exit icon-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                   <path fill="#DBDBC4" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" opacity=".4"/>
-                  <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
+                  <path fill="#02aaad" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
                 </svg>
               </button>
               <div class="back-button-text">Voltar</div>
@@ -557,7 +557,7 @@ function scwTemplateString() {
               <button type='button' data-type='icon' id="back-button" class="back-button icon-btn back-button-exit">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                   <path fill="#DBDBC4" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" opacity=".4"/>
-                  <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
+                  <path fill="#02aaad" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
                 </svg>
               </button>
               <div class="back-button-text">Back</div>
@@ -671,7 +671,7 @@ function scwTemplateString() {
             <button type='button' data-type='icon' id="back-button-selfie" class="back-button icon-btn">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="#DBDBC4" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" opacity=".4"/>
-                <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
+                <path fill="#02aaad" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
               </svg>
             </button>
             <div class="back-button-text">Back</div>
@@ -791,7 +791,7 @@ function scwTemplateString() {
             <button type='button' data-type='icon' id="back-button-id-entry" class="back-button icon-btn">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="#DBDBC4" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" opacity=".4"/>
-                <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
+                <path fill="#02aaad" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
               </svg>
             </button>
             <div class="back-button-text">Back</div>
@@ -900,7 +900,7 @@ function scwTemplateString() {
             <button type='button' data-type='icon' id="back-button-id-image" class="back-button icon-btn">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="#DBDBC4" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" opacity=".4"/>
-                <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
+                <path fill="#02aaad" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
               </svg>
             </button>
             <div class="back-button-text">Back</div>
@@ -1030,7 +1030,7 @@ function scwTemplateString() {
             <button type='button' data-type='icon' id="back-button-back-id-entry" class="back-button icon-btn">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="#DBDBC4" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" opacity=".4"/>
-                <path fill="#72B84A" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
+                <path fill="#02aaad" d="M15.5 11.25h-5.19l1.72-1.72c.29-.29.29-.77 0-1.06a.754.754 0 0 0-1.06 0l-3 3c-.29.29-.29.77 0 1.06l3 3c.15.15.34.22.53.22s.38-.07.53-.22c.29-.29.29-.77 0-1.06l-1.72-1.72h5.19c.41 0 .75-.34.75-.75s-.34-.75-.75-.75Z"/>
               </svg>
             </button>
             <div class="back-button-text">Back</div>

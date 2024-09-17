@@ -11,7 +11,7 @@ export default meta;
 
 export const IdReview = {
   args: {
-    'theme-color': '#72B84A',
+    'theme-color': '#02aaad',
   },
   render: (args) => `
         <document-capture-review

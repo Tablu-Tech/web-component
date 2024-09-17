@@ -179,7 +179,7 @@ function templateString() {
         font-size: 0.75rem;
       }
       h1 {
-        color: var(--web-digital-blue, #72B84A);
+        color: var(--web-digital-blue, #02aaad);
         text-align: center;
         /* h1 */
         font-size: 1.5rem;
@@ -194,7 +194,7 @@ function templateString() {
         line-height: 1rem;
       }
       .instruction-header {
-        color: var(--web-digital-blue, #72B84A);
+        color: var(--web-digital-blue, #02aaad);
       }
       .h2 {
         font-size: 1rem;
@@ -272,7 +272,7 @@ class SelfieCaptureReview extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#72B84A';
+    return this.getAttribute('theme-color') || '#02aaad';
   }
 
   get hideAttribution() {

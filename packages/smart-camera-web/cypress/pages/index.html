@@ -57,15 +57,17 @@
     <script>
       const app = document.querySelector('smart-camera-web');
       app.addEventListener('imagesComputed', async (e) => {
-        console.log(e.detail);
+        console.log("IMAGES INTEGRADAS : ", e.detail);
       });
 
       app.addEventListener('backExit', async (e) => {
         location.href = '/back_pressed';
+        console.log("IMAGES INTEGRADAS 2 : ", e.detail);
       });
 
       app.addEventListener('close', async (e) => {
         location.href = '/closed';
+        console.log("IMAGES INTEGRADAS 3 : ", e.detail);
       });
     </script>
   </body>

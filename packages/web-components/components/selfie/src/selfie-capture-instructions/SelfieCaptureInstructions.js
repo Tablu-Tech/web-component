@@ -10,8 +10,8 @@ function templateString() {
     />
     <style>
     :host {
-        --theme-color: ${this.themeColor || '#72B84A'}
-        --color-active: #72B84A;
+        --theme-color: ${this.themeColor || '#02aaad'}
+        --color-active: #02aaad;
         --color-default: #2d2b2a;
         --color-disabled: #848282;
       }
@@ -74,15 +74,15 @@ function templateString() {
       }
 
       .color-richblue-shade {
-        color: #72B84A;
+        color: #02aaad;
       }
 
       .color-digital-blue {
-        color: #72B84A !important;
+        color: #02aaad !important;
       }
 
       .color-deep-blue {
-        color: #72B84A;
+        color: #02aaad;
       }
 
       .center {
@@ -187,7 +187,7 @@ function templateString() {
       .back-button-text {
         font-size: 11px;
         line-height: 11px;
-        color: #72B84A;
+        color: #02aaad;
       }
       .section {
         border: 1px solid #f4f4f4;
@@ -242,13 +242,13 @@ function templateString() {
       }
 
       .powered-by .company {
-        color: #72B84A;
+        color: #02aaad;
         font-weight: 700;
         letter-spacing: 0.15rem;
       }
 
       .logo-mark {
-        background-color: #72B84A;
+        background-color: #02aaad;
         display: inline-block;
         padding: 0.25em 0.5em;
       }
@@ -609,7 +609,7 @@ class SelfieCaptureInstructions extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#72B84A';
+    return this.getAttribute('theme-color') || '#02aaad';
   }
 
   get hideAttribution() {

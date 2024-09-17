@@ -66,8 +66,8 @@ function templateString() {
     ${styles(this.themeColor)}
   <style>
   :host {
-    --theme-color: ${this.themeColor || '#72B84A'};
-    --color-active: #72B84A;
+    --theme-color: ${this.themeColor || '#02aaad'};
+    --color-active: #02aaad;
     --color-default: #2D2B2A;
     --color-disabled: #848282;
   }
@@ -134,11 +134,11 @@ function templateString() {
   }
 
   .color-digital-blue {
-    color: #72B84A !important;
+    color: #02aaad !important;
   }
 
   .color-deep-blue {
-    color: #72B84A;
+    color: #02aaad;
   }
 
   .title-color {
@@ -851,7 +851,7 @@ class SelfieCaptureScreen extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#72B84A';
+    return this.getAttribute('theme-color') || '#02aaad';
   }
 
   get hideAttribution() {

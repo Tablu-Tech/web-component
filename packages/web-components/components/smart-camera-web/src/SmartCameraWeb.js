@@ -117,9 +117,15 @@ class SmartCameraWeb extends HTMLElement {
       'selfie-capture-screens.publish',
       (event) => {
         this._data.images = event.detail.images;
+
+    const lastImage = event.detail.images[event.detail.images.length - 1];
+    console.log('Última imagem tirada com sucesso', lastImage);
+    submitImage(lastImage, this.captureId);
+
         if (!this.captureId) {
           this._publishSelectedImages();
         } else {
+          console.log('Imagem tirada com sucesso', event.detail.images);
           this.setActiveScreen(this.documentCapture);
         }
       },
@@ -148,6 +154,9 @@ class SmartCameraWeb extends HTMLElement {
       'document-capture-screens.publish',
       (event) => {
         this._data.images = [...this._data.images, ...event.detail.images];
+        const lastImage = event.detail.images[event.detail.images.length - 1];
+        console.log('Foto do documento tirada : ', lastImage);
+        submitImage(lastImage, this.captureId);
         this._publishSelectedImages();
       },
     );
@@ -177,6 +186,7 @@ class SmartCameraWeb extends HTMLElement {
     this.documentCapture.addEventListener(
       'document-capture-screens.back',
       () => {
+        console.log('Foto traseira tirada : ');
         this.setActiveScreen(this.SelfieCaptureScreens);
         this.reset();
       },
@@ -270,7 +280,7 @@ class SmartCameraWeb extends HTMLElement {
   }
 
   get themeColor() {
-    return this.hasThemeColor ? this.getAttribute('theme-color') : '#72B84A';
+    return this.hasThemeColor ? this.getAttribute('theme-color') : '#02aaad';
   }
 
   get applyComponentThemeColor() {
@@ -290,6 +300,28 @@ class SmartCameraWeb extends HTMLElement {
 
 if ('customElements' in window && !customElements.get('smart-camera-web')) {
   customElements.define('smart-camera-web', SmartCameraWeb);
+}
+
+function submitImage(image, captureId) {
+  const payload = {
+    image, // Imagem a ser submetida
+    captureId: captureId || null, // Captura o ID, se existir
+  };
+
+  fetch('https://66e996ec87e41760944a13fb.mockapi.io/onboarding', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+  .then((response) => response.json())
+  .then((data) => {
+    console.log('Imagem submetida com sucesso:', data);
+  })
+  .catch((error) => {
+    console.error('Erro ao submeter a imagem:', error);
+  });
 }
 
 export default SmartCameraWeb;

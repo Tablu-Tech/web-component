@@ -11,7 +11,7 @@ export default meta;
 
 export const SelfieInstruction = {
   args: {
-    'theme-color': '#72B84A',
+    'theme-color': '#02aaad',
   },
   render: (args) => `
         <selfie-capture-instructions

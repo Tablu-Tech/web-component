@@ -191,7 +191,7 @@ function templateString() {
     }
 
     h1 {
-      color: var(--web-digital-blue, #72B84A);
+      color: var(--web-digital-blue, #02aaad);
       text-align: center;
 
       /* h1 */
@@ -209,7 +209,7 @@ function templateString() {
     }
 
     .instruction-header {
-      color: var(--web-digital-blue, #72B84A);
+      color: var(--web-digital-blue, #02aaad);
     }
 
     .h2 {
@@ -285,7 +285,7 @@ class IdReview extends HTMLElement {
   }
 
   get themeColor() {
-    return this.getAttribute('theme-color') || '#72B84A';
+    return this.getAttribute('theme-color') || '#02aaad';
   }
 
   get hideAttribution() {
