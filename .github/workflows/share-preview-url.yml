@@ -10,7 +10,7 @@ jobs:
     permissions: write-all
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: get dest dir for web smart-camera-web
         id: get_dest_dir_smart_camera_web
         working-directory: ./packages/smart-camera-web

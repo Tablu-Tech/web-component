@@ -9,9 +9,9 @@ jobs:
         working-directory: ./packages/smart-camera-web
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: set node version
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
       - name: install dependencies
         run: npm ci
       - name: build application
@@ -30,9 +30,9 @@ jobs:
         working-directory: ./packages/embed
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: set node version
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
       - name: install dependencies
         run: npm ci
       - name: run tests
@@ -55,9 +55,9 @@ jobs:
         working-directory: ./packages/web-components
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: set node version
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
       - name: install dependencies
         run: npm ci
       - name: run tests
