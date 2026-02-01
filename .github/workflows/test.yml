@@ -9,15 +9,15 @@ jobs:
         working-directory: ./packages/smart-camera-web
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: set node version
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
       - name: install dependencies
         run: npm ci
       - name: build application
         run: npm run build
       - name: run tests
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           install: false
           start: npm start
@@ -30,20 +30,20 @@ jobs:
         working-directory: ./packages/embed
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: set node version
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
       - name: install dependencies
         run: npm ci
       - name: run tests
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           install: false
           start: npm start
           working-directory: ./packages/embed
           wait-on: 'http://localhost:8000'
       - name: upload test failure artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: failure()
         with:
           name: cypress-screenshots
@@ -55,20 +55,20 @@ jobs:
         working-directory: ./packages/web-components
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: set node version
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
       - name: install dependencies
         run: npm ci
       - name: run tests
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           install: false
           start: npm start
           working-directory: ./packages/web-components
           wait-on: 'http://localhost:8000'
       - name: upload test failure artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: failure()
         with:
           name: cypress-screenshots
